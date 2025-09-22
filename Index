@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bee's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 left-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+      <h1 class="text-xl font-bold">Bee</h1>
+      <div class="space-x-6">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">Hi, I'm Bee 👋</h2>
+      <p class="text-lg mb-6">Political Science student | Web Design Learner | Aspiring Global Thinker</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-2 rounded-full shadow-md hover:bg-gray-100">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-gray-700 leading-relaxed">
+      I'm Bee, a student passionate about international relations, digital skills, and creative storytelling. 
+      I’m currently learning web design and exploring how technology connects with diplomacy and culture. 
+      This portfolio is a small step in my journey — showcasing both my class projects and personal growth.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="font-bold text-xl mb-2">Project One</h3>
+          <p class="text-gray-600">Short description of your first project. Could be a cheat sheet or coding exercise.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="font-bold text-xl mb-2">Project Two</h3>
+          <p class="text-gray-600">Short description of your second project. Placeholder for now, update later.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg">
+          <h3 class="font-bold text-xl mb-2">Project Three</h3>
+          <p class="text-gray-600">Short description of your third project. Placeholder content for structure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <p class="mb-4 text-gray-700">Let’s connect! You can reach me at:</p>
+    <a href="mailto:your.email@example.com" class="text-blue-600 font-semibold">your.email@example.com</a>
+    <p class="mt-2 text-gray-600">Or find me on LinkedIn: <a href="#" class="text-blue-500">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center text-gray-500">
+    Made with 💻 by Bee | © 2025
+  </footer>
+
+</body>
+</html>
